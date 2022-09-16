@@ -4,7 +4,7 @@
  * @value: the value to be evaluated
  * Return: return 1 if positive 0 if value = 0 and -1 if negative
  */
-int print_sign (int value)
+int print_sign(int value)
 {
 	if (value > 0)
 	{
