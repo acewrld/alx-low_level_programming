@@ -1,19 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- * main - main block
- * Description: Get a random number and check its last digit, compare it with 5
- * Return: 0
- */
+ * main - Entry point
+ *
+ * Description: print all aplhabet letters
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-char c = 'a';
-while (c <= 'z')
+	char ch = 'a';
+
+	while (ch <= 'z')
 	{
-		putchar(c);
-		c++
+		putchar(ch);
+		++ch;
 	}
-	
 	putchar('\n');
-	return(0);
+
+	return (0);
 }
