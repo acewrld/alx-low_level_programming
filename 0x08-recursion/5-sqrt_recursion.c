@@ -1,7 +1,7 @@
-#includr "main.h"
+#include "main.h"
 
 /**
- * _sqrt_recussion - main function
+ * _sqrt_recursion - main function
  * @n: int n
  * Return: int
  */
