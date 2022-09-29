@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 int tmp_prime(int n, int i);
 
@@ -11,7 +12,7 @@ int tmp_prime(int n, int i);
 
 int divisors(int n, int m)
 {
-	if (m %!n == 0)
+	if (m % !n == 0)
 	{
 		return (0);
 	}
